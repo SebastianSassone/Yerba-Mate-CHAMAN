@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/registro.css">
+    <title>Yerba Mate CHAMAN</title>
+</head>
+<body class="body_registro">
+    <div id="menu_adaptable">
+        <header class="header">
+            <div class="logo"></div>
+            <div class="div_button">
+            <button id="boton_desplegar" class="boton">=</button>
+            </div>
+            <ul id="ul" class="ul_menu">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../partials/productos.html">Productos</a></li>
+              <li><a href="../partials/contacto.html">Contacto</a></li>
+              <li><a href="../partials/conocemas.html">Conoce mas sobre nosotros</a></li>
+              <li><a href="../partials/registro.html">Registro</a></li>
+            </ul>
+          </header>
+    </div>
+    <nav class="nav_menu">
+        <div class="logo"></div>
+        <div class="nav_menu_central" id="nav_menu_central"> 
+          <strong>
+            <a href="../index.html">Inicio</a>
+            <a href="../partials/productos.html">Productos</a>
+            <a href="../partials/contacto.html">Contacto</a>
+            <a href="../partials/conocemas.html">Conoce mas sobre nosotros</a>
+          </strong>
+        </div>
+        <div class="nav_menu_registro">
+            <strong>
+            <a href="../partials/registro.html" id="nav_registro">Registro</a> 
+            </strong>
+        </div>
+    </nav>
+    <main id="main">
+      <section class="section_registro">
+          <form action="" class="form_registro" id="form_registro">
+              <label for="">Nombre
+                  <input type="text" name="" id="registro_nombre" onclick="click()">
+              </label>
+              
+              <label for="">Apellido
+                  <input type="text" name="" id="registro_apellido">
+              </label>
+              
+              <label for="">Email
+                  <input type="email" name="" id="registro_email">
+              </label>
+              
+              <p>Defina una contraseña</p>
+
+              <label for="">Contraseña
+                  <input type="password" name="" id="registro_contraseña">
+              </label>
+              
+              <label for="">Repetir contraseña
+                  <input type="password" name="" id="registro_contraseña1">
+              </label>
+             
+              <button id="boton_registrar" type="button">Registrarse</button>
+
+              <p>Ya estas registrado <a id="inciarSesion">Iniciar Sesion</a></p>
+      </form>
+
+      <div id="_form_inciarSesion">
+      <form action="" class="form_inciarSesion">
+        <p>Iniciar Sesion</p>
+
+        <label for="">Email
+        <input type="email" id="email_inciarSesion">
+        </label>
+
+        <label for="">Contraseña
+         <input type="password" name="" id="contraseñainciarSesion">
+        </label>
+
+        <button type="button" id="boton_inciarSesion">Iniciar sesion</button>
+      </form>
+
+      </div>
+       <section id="section_div_new_user">
+        <div id="div_new_user">
+            <h2 id="h2_div_new_user">Su regristro fue realizado con exito!</h2>
+                <div id="card_new_user">
+                 <div id="parrafo_card_new_user">                    
+                     <p id="p_new_user"></p>
+                 </div>
+                 <div id="img_new_user">
+                   <div></div>
+                </div>
+             </div>
+            </section>
+       </div> 
+
+
+    </section>
+    </main>
+    <footer>
+        <div class="div_copyright">
+            Copyright © 
+            <p>Estas pagina fue echa con fines didacticos por Juan Sebastian Sassone.
+                Todos los recursos utilizados para constituir  la misma no representan
+                un uso cormercial u de otras caracteristicas.
+            </p>
+        </div>
+    
+       <div class="div-separador">
+    
+       </div>
+    
+        <div class="div_p_redes_sociales">
+            <p>Seguinos en nuestras redes sociales!</p>
+        <div class="div_redes_sociales">
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/registro.js"></script>
+</html>

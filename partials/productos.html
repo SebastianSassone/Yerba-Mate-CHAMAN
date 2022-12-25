@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../img/logo favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/productos.css">
+    <title>Yerba Mate CHAMAN</title>
+</head>
+<body>
+    <div id="menu_adaptable">
+        <header class="header">
+            <div class="logo"></div>
+            <div class="div_button">
+            <button id="boton_desplegar" class="boton">=</button>
+            </div>
+            <ul id="ul" class="ul_menu">
+              <li><a href="../index.html">Inicio</a></li>
+              <li><a href="../partials/productos.html">Productos</a></li>
+              <li><a href="../partials/contacto.html">Contacto</a></li>
+              <li><a href="../partials/conocemas.html">Conoce mas sobre nosotros</a></li>
+              <li><a href="../partials/registro.html">Registro</a></li>
+            </ul>
+          </header>
+    </div>
+    <nav class="nav_menu">
+        <div class="logo"></div>
+        <div class="nav_menu_central" id="nav_menu_central"> 
+          <strong>
+            <a href="../index.html">Inicio</a>
+            <a href="../partials/productos.html">Productos</a>
+            <a href="../partials/contacto.html">Contacto</a>
+            <a href="../partials/conocemas.html">Conoce mas sobre nosotros</a>
+          </strong>
+        </div>
+        <div class="nav_menu_registro">
+            <strong>
+            <a href="../partials/registro.html">Registro</a> 
+            </strong>
+        </div>
+    </nav>
+       <!--Detalle de productos--> 
+       <div id="detalle_de_productos_cover_id" class="detalle_de_productos_cover">
+           <div class="detalle_de_productos" id="detalle_de_productos">
+               <div class="boton_cerrar">
+                   <button id="boton_cerrar_id">x</button>
+                </div>
+                <div class="descripcion_producto">
+                    <p id="p_detalle"><strong></strong></p> 
+                    <div class="agregar_al_carrito">Agregar al carrito
+                        <button id="button_re">-</button>
+                        <button id="button_su">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ! -->
+        <!--Carrito--> 
+       <div id="section_carrito">
+        <div class="section_carrito" >
+        <div class="card_carrito">
+            <button id="boton_cerrar_card">x</button>
+            <div class="img_carrito"></div>
+            <div class="texto_carrito">
+            <p class="p-carrito"> Los productos en su carrito son:</p>
+            <ul>
+                <li id="productos_carrito"></li>
+            </ul>
+            </div>
+        </div>
+       </div>
+    </div>
+       <!-- ! -->
+    <main id="main">
+        <div class="carrito" id="carrito"></div>
+        <section class="productos_de_nuestra_marca">
+            <h2>Los productos de nuestra marca</h2>
+        <div id="productos_clasicos">   
+            <div class="productos_div1" id="producto_1">
+                <p id="p_productos_1"><strong>Pakete de yerba mate Chaman clasica 500g</strong></p>
+            </div>
+            <div class="productos_div2" id="producto_2">
+                <p id="p_productos_2"><strong>Pakete de yerba mate Chaman clasica 1000g</strong></p>
+            </div>
+        </div>
+        <div id="porductos_menta">
+            <div class="productos_div3" id="producto_3">
+                <p id="p_productos_3"><strong>Pakete de yerba mate Chaman menta 500g</strong></p>
+            </div>
+            <div class="productos_div4" id="producto_4">
+                <p id="p_productos_4"><strong>Pakete de yerba mate Chaman menta 1000g</strong></p>
+            </div>
+        </div>
+        </section>
+
+        <section class="productos_externos">
+            <h2>Lo que no te puede faltar a la hora de tomar mate</h2>
+            <div id="porductos_externos">
+                <div class="productos_div5" id="producto_5">
+                    <p id="p_productos_5"><strong>Set de mates</strong></p>
+                </div>
+                <div class="productos_div6" id="producto_6">
+                    <p id="p_productos_6"><strong>Set de Bombillas</strong></p>
+                </div>
+            </div>
+        </section> 
+
+     
+
+    </main>
+    <footer>
+        <div class="div_copyright">
+            Copyright © 
+            <p>Estas pagina fue echa con fines didacticos por Juan Sebastian Sassone.
+                Todos los recursos utilizados para constituir  la misma no representan
+                un uso cormercial u de otras caracteristicas.
+            </p>
+        </div>
+    
+       <div class="div-separador">
+    
+       </div>
+    
+        <div class="div_p_redes_sociales">
+            <p>Seguinos en nuestras redes sociales!</p>
+        <div class="div_redes_sociales">
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="../js/script.js"></script>
+<script src="../js/carrito.js"></script>
+</html>
