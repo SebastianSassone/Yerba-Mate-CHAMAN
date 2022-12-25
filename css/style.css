@@ -854,6 +854,7 @@ margin-right: 42%;
     justify-content: center;
     align-items: center;
     height: 625px;
+
 }
 
 .form_registro{
@@ -904,7 +905,6 @@ margin-right: 42%;
     font-weight: bold;
 }
 
-
 /* card user */
 
 #section_div_new_user{
@@ -944,8 +944,8 @@ margin-right: 42%;
  align-items: center;
  position:  absolute;
  background-color: rgba(255, 255, 255, 0.485);
- width: 175px;
- margin-left: 85px;
+ width: 270px;
+ margin-left: 132px;
  height: 200px;
 }
 
@@ -1184,7 +1184,7 @@ footer{
         
         .section_maestro{
             display: flex;
-            height: 200px;
+            height: 275px;
             align-items: center;
             margin-top: 70px;
             width: 100%;
@@ -1255,8 +1255,7 @@ footer{
 
         .card_carrito{
            margin-top: 0%;
-           height: 200px;
-           
+           height: 200px;  
         }
 
         .img_carrito{
@@ -1275,6 +1274,7 @@ footer{
         #productos_carrito{
           font-size: 10px;
         }
+
         /* nuestra marca */
 
        .productos_de_nuestra_marca {
@@ -1348,7 +1348,7 @@ footer{
        
        .section_2 img{
          border: 1px solid darkorange;
-          width: 100%
+         width: 100%
        }
        
        .section_2{
@@ -1380,8 +1380,6 @@ footer{
          text-decoration: none;
          list-style: none;
          font-size: 12px;
-       
-       
        } 
        
        .div-lista1{
@@ -1390,7 +1388,6 @@ footer{
        
        .div-lista2{
          margin-right: 0%;
-       
        }
        
        
@@ -1412,6 +1409,11 @@ footer{
          height: 42%;
        }
 
+       #parrafo_card_new_user{
+        width: 53%;
+        margin-left: 25.9%;
+       } 
+
 
 /* footer */
 
@@ -1420,7 +1422,6 @@ footer{
           height: 150px;
           font-size: 10px;
           padding: 1px;
-          position: relative;
         }
       
        .div_copyright{
